@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const setupPortfolioFilters = () => {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const items = document.querySelectorAll('.portfolio-item');
+    const highlights = document.querySelectorAll('.portfolio-item.portfolio-highlight');
 
     filterButtons.forEach((button) => {
       button.addEventListener('click', () => {
@@ -121,10 +122,26 @@ document.addEventListener('DOMContentLoaded', () => {
         button.classList.add('active');
 
         items.forEach((item) => {
-          const show = filter === 'all' || item.dataset.category === filter;
-          item.style.display = show ? '' : 'none';
+          item.classList.remove('active-filter');
+          
+          if (filter === 'all') {
+            // Show highlights only when "All" is selected
+            if (item.classList.contains('portfolio-highlight')) {
+              item.classList.add('active-filter');
+            }
+          } else {
+            // Show all items matching the filter
+            if (item.dataset.category === filter) {
+              item.classList.add('active-filter');
+            }
+          }
         });
       });
+    });
+
+    // Initialize with highlights visible
+    highlights.forEach((item) => {
+      item.classList.add('active-filter');
     });
   };
 
