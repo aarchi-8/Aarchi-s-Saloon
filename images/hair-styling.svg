@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Hair styling concept">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fffdfb"/><stop offset="100%" stop-color="#8b5e83"/></linearGradient></defs>
+  <rect width="900" height="1100" fill="url(#g)" fill-opacity="0.2"/>
+  <path d="M250 330 C340 180 560 180 650 330 C700 430 690 620 610 760 C560 850 340 850 290 760 C210 620 200 430 250 330Z" fill="#2b2b2b" fill-opacity="0.12"/>
+  <path d="M290 360 C365 250 535 250 610 360" fill="none" stroke="#d4af37" stroke-width="12" stroke-linecap="round" stroke-opacity="0.45"/>
+  <rect x="310" y="820" width="280" height="88" rx="44" fill="#fffdfb" fill-opacity="0.55"/>
+</svg>

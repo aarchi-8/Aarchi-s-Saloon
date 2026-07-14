@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Hair before transformation">
+  <rect width="1200" height="900" fill="#f8e7e7"/>
+  <circle cx="850" cy="180" r="180" fill="#fffdfb" fill-opacity="0.5"/>
+  <path d="M330 260 C430 170 770 170 870 260 C930 350 930 560 840 670 C770 760 430 760 360 670 C270 560 270 350 330 260Z" fill="#2b2b2b" fill-opacity="0.22"/>
+</svg>

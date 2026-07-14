@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Hair smoothening concept">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f8e7e7"/><stop offset="100%" stop-color="#fffdfb"/></linearGradient></defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <path d="M230 360 C290 250 610 250 670 360 C710 470 690 640 620 760 C560 860 340 860 280 760 C210 640 190 470 230 360Z" fill="#d4af37" fill-opacity="0.16"/>
+  <path d="M300 410 C360 320 540 320 600 410" fill="none" stroke="#8b5e83" stroke-width="10" stroke-linecap="round" stroke-opacity="0.45"/>
+  <rect x="270" y="820" width="360" height="84" rx="42" fill="#2b2b2b" fill-opacity="0.08"/>
+</svg>

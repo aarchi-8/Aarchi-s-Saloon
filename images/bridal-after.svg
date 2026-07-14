@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Bridal after transformation">
+  <rect width="1200" height="900" fill="#fffdfb"/>
+  <rect x="120" y="110" width="960" height="680" rx="42" fill="#d4af37" fill-opacity="0.16"/>
+  <circle cx="610" cy="370" r="145" fill="#8b5e83" fill-opacity="0.2"/>
+  <path d="M420 500 C510 430 690 430 780 500" fill="none" stroke="#d4af37" stroke-width="12" stroke-linecap="round" stroke-opacity="0.5"/>
+</svg>

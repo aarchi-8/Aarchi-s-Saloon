@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" role="img" aria-label="Elegant salon interior concept">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffdfb"/>
+      <stop offset="100%" stop-color="#f8e7e7"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5e83"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="900" fill="url(#a)"/>
+  <rect x="95" y="110" width="810" height="680" rx="44" fill="#fff" stroke="#d4af37" stroke-opacity="0.22"/>
+  <rect x="165" y="190" width="130" height="330" rx="26" fill="url(#b)" fill-opacity="0.18"/>
+  <rect x="340" y="190" width="320" height="130" rx="26" fill="#8b5e83" fill-opacity="0.14"/>
+  <rect x="340" y="350" width="320" height="130" rx="26" fill="#d4af37" fill-opacity="0.14"/>
+  <rect x="165" y="560" width="580" height="140" rx="30" fill="#2b2b2b" fill-opacity="0.06"/>
+  <circle cx="780" cy="255" r="86" fill="#d4af37" fill-opacity="0.18"/>
+  <circle cx="790" cy="255" r="46" fill="#8b5e83" fill-opacity="0.26"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Hair after transformation">
+  <rect width="1200" height="900" fill="#fffdfb"/>
+  <circle cx="850" cy="180" r="180" fill="#d4af37" fill-opacity="0.25"/>
+  <path d="M310 250 C420 150 780 150 890 250 C950 350 950 570 850 680 C770 770 430 770 350 680 C250 570 250 350 310 250Z" fill="#8b5e83" fill-opacity="0.3"/>
+  <path d="M430 290 C520 230 680 230 770 290" fill="none" stroke="#d4af37" stroke-width="10" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Skin treatment concept">
+  <rect width="900" height="1100" fill="#fffdfb"/>
+  <rect x="100" y="120" width="700" height="860" rx="50" fill="#f8e7e7" fill-opacity="0.38"/>
+  <circle cx="450" cy="470" r="170" fill="#d4af37" fill-opacity="0.18"/>
+  <circle cx="450" cy="470" r="95" fill="#8b5e83" fill-opacity="0.18"/>
+  <path d="M320 730 C380 680 520 680 580 730" fill="none" stroke="#2b2b2b" stroke-width="10" stroke-linecap="round" stroke-opacity="0.16"/>
+</svg>

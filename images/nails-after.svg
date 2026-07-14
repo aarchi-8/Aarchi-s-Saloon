@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Nails after transformation">
+  <rect width="1200" height="900" fill="#fffdfb"/>
+  <rect x="390" y="220" width="420" height="460" rx="170" fill="#d4af37" fill-opacity="0.18"/>
+  <path d="M450 390 L560 270 L670 390" fill="none" stroke="#8b5e83" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
