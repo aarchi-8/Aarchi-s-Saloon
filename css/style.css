@@ -2143,6 +2143,141 @@ h1, h2, h3, h4, .brand-mark strong, .footer-brand {
   border: 0;
 }
 
+.contact-section {
+  background: linear-gradient(135deg, rgba(255, 248, 241, 0.8), rgba(251, 226, 234, 0.6)), url('../images/contact-bg.svg') center/cover no-repeat;
+}
+
+.contact-info-card {
+  padding: 32px 24px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(242, 156, 181, 0.2);
+  box-shadow: 0 20px 48px rgba(97, 51, 71, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(16px) saturate(1.12);
+  text-align: center;
+  transition: all 0.35s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 32px 64px rgba(97, 51, 71, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.contact-info-card-highlight {
+  background: linear-gradient(135deg, rgba(242, 156, 181, 0.12), rgba(191, 111, 141, 0.08));
+  border: 2px solid rgba(242, 156, 181, 0.4);
+}
+
+.contact-info-card-highlight:hover {
+  box-shadow: 0 32px 72px rgba(242, 156, 181, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.contact-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f29cb5, #bf6f8d);
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.contact-info-card h3 {
+  font-size: 1.4rem;
+  margin: 12px 0;
+  color: var(--text);
+}
+
+.contact-detail {
+  color: #666;
+  margin: 12px 0 20px;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: rgba(191, 111, 141, 0.15);
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid rgba(191, 111, 141, 0.3);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(135deg, #f29cb5, #bf6f8d);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 12px 28px rgba(242, 156, 181, 0.25);
+}
+
+.contact-btn-highlight {
+  background: linear-gradient(135deg, #f29cb5, #bf6f8d);
+  color: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 12px 28px rgba(242, 156, 181, 0.25);
+}
+
+.contact-btn-highlight:hover {
+  box-shadow: 0 16px 36px rgba(242, 156, 181, 0.35);
+}
+
+.contact-hours-panel {
+  padding: 32px 28px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(242, 156, 181, 0.2);
+  box-shadow: 0 20px 48px rgba(97, 51, 71, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(16px) saturate(1.12);
+}
+
+.contact-hours-panel h3 {
+  font-size: 1.4rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hour-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(242, 156, 181, 0.08);
+  border-left: 4px solid rgba(242, 156, 181, 0.4);
+}
+
+.hour-item span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.hour-item strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
 .site-footer {
   padding: 70px 0 24px;
   background: linear-gradient(180deg, #57263b 0%, #241017 100%);
